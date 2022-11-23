@@ -19,14 +19,14 @@ body {
 
 .content {
     height: 500px;
-    width: 800px;
+    width: 900px;
     background-color: #222831;
     border-radius: 40px;
     display: flex;
 }
 
 .today {
-    width: 40%;
+    width: 35%;
     border-radius: 40px;
     background: linear-gradient(#e66465, #9198e5);
 }
@@ -54,23 +54,44 @@ body {
 }
 
 .today__content {
-    margin-top: 30%;
+    margin-top: 20%;
     text-align: center;
 }
 
 .content_temp {
-    margin-top: 20px;
+    margin-top: 10px;
     font-size: 50px;
     font-weight: 800;
 }
 
 .content_feel {
-    margin-top: 5px;
+    margin-top: 10px;
     font-size: 14px;
     font-weight: 200;
 }
 
 .content_condition {
-    margin-top: 20px;
+    margin-top: 10px;
     font-weight: 200;
+}
+
+.week {
+    width: 65%;
+}
+
+.days {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.days__card {
+    background-color: #272E37;
+    border-radius: 20px;
+    height: 130px;
+    width: 20%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
