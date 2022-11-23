@@ -27,6 +27,11 @@ body {
 
 .today {
     width: 40%;
+    border-radius: 40px;
+    background: linear-gradient(#e66465, #9198e5);
+}
+
+.today_info {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -45,5 +50,27 @@ body {
 .today__info{
     display: inline-block;
     line-height: 22px;
+    font-weight: 200;
+}
+
+.today__content {
+    margin-top: 30%;
+    text-align: center;
+}
+
+.content_temp {
+    margin-top: 20px;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.content_feel {
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.content_condition {
+    margin-top: 20px;
     font-weight: 200;
 }
