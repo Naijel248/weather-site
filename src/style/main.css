@@ -80,7 +80,7 @@ body {
 }
 
 .days {
-    margin-top: 20px;
+    margin-top: 40px;
     display: flex;
     justify-content: space-evenly;
 }
@@ -94,4 +94,37 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.days__info {
+    margin: 50px 30px;
+    font-size: 25px;
+}
+
+.info_text {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.info_text:last-child {
+    margin-bottom: 0px;
+}
+
+.value {
+    width: 30%;
+    display: inline-block;
+    text-align: right;
+}
+
+.change {
+    display: block;
+    margin: 0 auto;
+    height: 50px;
+    width: 200px;
+    background: #9198e5;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 50px;
 }
